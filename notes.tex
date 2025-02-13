@@ -18,8 +18,24 @@
 \end{center}
 
 \begin{enumerate}
-    \item The decision version of this problem is easy? Because we have
+    \item The decision version of this problem is easy? Or not. I don't know yet.
 \end{enumerate}
+
+
+\section{Modelling}
+\begin{equation}
+    \begin{bmatrix}
+	p^1(x) \\ p^2(x) \\ \vdots \\ p^m(x)
+    \end{bmatrix}
+    = T
+    \begin{bmatrix}
+	f^1(Sx) \\ f^2 (Sx) \\ \vdots \\ f^m(Sx)
+    \end{bmatrix}
+\end{equation}
+giving
+\begin{equation}
+    p^i(x) = \sum_{i=1}^m t_{ij} f^j(Sx) = \sum_{i=1}^m t_{ij}(x^TS^TASx + BSx +C)
+\end{equation}
 
 \end{document}
 	    
